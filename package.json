@@ -1,0 +1,31 @@
+{
+  "name": "react-maps",
+  "version": "1.0.0",
+  "description": "react with google maps app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/carlosvicente100/ReactMaps"
+  },
+  "keywords": [
+    "react",
+    "google",
+    "maps"
+  ],
+  "author": "Carlos Vicente Serrano",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
