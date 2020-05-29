@@ -3,9 +3,9 @@ React with API Google Maps
 
 npm init - install all
 
-npm start - runs the app 
-
-npx cypress open - runs cypress for test
+npm run start - runs the app 
+npm run prod - build the app 
+npm run test - runs cypress for test ( you need launch start before)
 
 
 Solución:
