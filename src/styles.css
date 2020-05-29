@@ -1,0 +1,17 @@
+.pac-container{
+    background-color: gray;
+    color:black;
+}
+.pac-item:hover{
+    background-color: black;
+}
+.pac-item span{
+    color:purple;
+}
+.pac-item span.pac-item-query{
+    color:lightsalmon;
+}
+.pac-item span.pac-matched{
+    color:tomato;
+    background-color: lightslategrey;
+}

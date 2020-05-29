@@ -1,17 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import store from './redux/store'
+import { Provider } from 'react-redux'
+import Map from './components/map'
 
-import Map from './map'
-import MyMapWithAutocomplete from './input'
-
-class HelloMessage extends React.Component {
-  render() {
-    return (<div>Hello
-        <Map />
-{/* <MyMapWithAutocomplete /> */}
-    </div>);
-  }
-}
-
-var mountNode = document.getElementById("app");
-ReactDOM.render(<HelloMessage name="Jane" />, mountNode);
+ReactDOM.render(
+  <Provider store={store}>
+    <Map></Map>
+  </Provider>,
+  document.getElementById('app')
+)
