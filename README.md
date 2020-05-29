@@ -4,7 +4,7 @@ React with API Google Maps
 ## Installation
 
 ```bash
-npm init 
+npm install 
 ```
 
 ## Usage
