@@ -1,9 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import Map from './map'
+import MyMapWithAutocomplete from './input'
+
 class HelloMessage extends React.Component {
   render() {
-    return <div>Hello</div>;
+    return (<div>Hello
+        <Map />
+{/* <MyMapWithAutocomplete /> */}
+    </div>);
   }
 }
 

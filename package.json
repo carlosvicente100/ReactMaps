@@ -19,6 +19,7 @@
   "author": "Carlos Vicente Serrano",
   "license": "ISC",
   "dependencies": {
+    "@react-google-maps/api": "^1.9.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
